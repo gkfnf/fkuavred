@@ -1,0 +1,18 @@
+{
+  "id": "ws_3b09d204",
+  "name": "uavred",
+  "slug": "uavred",
+  "defaults": {
+    "permissionMode": "safe",
+    "cyclablePermissionModes": [
+      "safe",
+      "allow-all"
+    ],
+    "enabledSourceSlugs": []
+  },
+  "localMcpServers": {
+    "enabled": true
+  },
+  "createdAt": 1771793669316,
+  "updatedAt": 1771793669318
+}

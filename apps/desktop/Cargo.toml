@@ -1,0 +1,12 @@
+[package]
+name = "uavred-desktop"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "uavred-desktop"
+path = "src/main.rs"
+
+[dependencies]
+uavred-ui = { path = "../../crates/ui" }
+uavred-infra = { path = "../../crates/infra" }

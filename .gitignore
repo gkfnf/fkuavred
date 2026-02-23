@@ -1,0 +1,7 @@
+# Ignore directories
+Refers/
+sessions/
+target/
+statuses/
+labels/
+sources/

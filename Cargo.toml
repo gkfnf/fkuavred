@@ -1,0 +1,21 @@
+[workspace]
+members = [
+  "apps/desktop",
+  "crates/red",
+  "crates/logic",
+  "crates/infra",
+  "crates/database",
+  "crates/memory",
+  "crates/ui",
+  "tests/e2e",
+]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+version = "0.1.0"
+license = "MIT"
+authors = ["uavred contributors"]
+
+[workspace.dependencies]
+
